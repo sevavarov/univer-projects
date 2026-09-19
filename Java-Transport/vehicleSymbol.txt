@@ -1,0 +1,15 @@
+Bike
+Yamaha
+6
+Yamaha 0
+176.0
+Yamaha 1
+675.0
+Yamaha 2
+873.0
+Yamaha 3
+388.0
+Yamaha 4
+884.0
+Yamaha 5
+70.0
