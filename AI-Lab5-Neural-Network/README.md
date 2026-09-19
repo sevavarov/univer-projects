@@ -47,5 +47,5 @@
 ## Структура
 
 ```text
-??? lab5.ipynb
-??? README.md
+lab5.ipynb
+README.md

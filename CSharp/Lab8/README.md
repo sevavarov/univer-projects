@@ -53,15 +53,15 @@ Windows Forms приложение на C# в рамках учебного курса по программированию.
 
 ```text
 Varov.Lab8/
-??? ArraySorter.cs
-??? ExitDialog.cs
-??? Form1.cs
-??? GuessGame.cs
-??? InputControl.cs
-??? Program.cs
-??? Reversi.cs
-??? Reversi1.cs
-??? StringManager.cs
-??? App.config
-??? Properties/
-??? Resources/
+ArraySorter.cs
+ExitDialog.cs
+Form1.cs
+GuessGame.cs
+InputControl.cs
+Program.cs
+Reversi.cs
+Reversi1.cs
+StringManager.cs
+App.config
+Properties/
+Resources/

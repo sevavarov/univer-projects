@@ -25,17 +25,17 @@
 
 ```text
 src/
-??? Car.java
-??? Bike.java
-??? Vehicle.java
-??? Client.java
-??? SequentialServer.java
-??? ParallelServer.java
-??? ServerThread.java
-??? Exception/
-    ??? DuplicateModelNameException.java
-    ??? NoSuchModelNameException.java
-    ??? ModelPriceOutOfBoundsException.java
+Car.java
+Bike.java
+Vehicle.java
+Client.java
+Serve1r.java
+Server2.java
+ServerThread.java
+Exception/
+    DuplicateModelNameException.java
+    NoSuchModelNameException.java
+    ModelPriceOutOfBoundsException.java
  лиент-серверное взаимодействие
 
  лиент создает массив транспортных средств и передает его серверу через TCP-соединение.
@@ -44,8 +44,8 @@ src/
 
 ѕредусмотрены два варианта сервера:
 
-SequentialServer Ч последовательна€ обработка одного подключени€
-ParallelServer Ч обработка нескольких подключений в отдельных потоках
+Server1 Ч последовательна€ обработка одного подключени€
+Server2 Ч обработка нескольких подключений в отдельных потоках
 «апуск
 
 —начала необходимо запустить один из серверов.
