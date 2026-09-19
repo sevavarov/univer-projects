@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:id="grid" hgap="5.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" onKeyTyped="#keyTap" style="-fx-background-color: #d4bde0;" vgap="5.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="105.0" minWidth="25.0" prefWidth="85.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="105.0" minWidth="25.0" prefWidth="85.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="105.0" minWidth="25.0" prefWidth="85.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="105.0" minWidth="25.0" prefWidth="85.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="95.0" minHeight="25.0" prefHeight="75.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="95.0" minHeight="25.0" prefHeight="75.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="95.0" minHeight="25.0" prefHeight="75.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="95.0" minHeight="25.0" prefHeight="75.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="95.0" minHeight="25.0" prefHeight="75.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="95.0" minHeight="25.0" prefHeight="75.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <Button fx:id="seven" lineSpacing="2.0" mnemonicParsing="false" onAction="#numClick" prefHeight="83.0" prefWidth="113.0" style="-fx-background-color: d09ee4;" text="7" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+      <font>
+         <Font name="Century Gothic" size="40.0" />
+      </font>
+   </Button>
+   <Button fx:id="eight" lineSpacing="2.0" mnemonicParsing="false" onAction="#numClick" prefHeight="83.0" prefWidth="113.0" style="-fx-background-color: d09ee4;" text="8" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.vgrow="ALWAYS">
+      <font>
+         <Font name="Century Gothic" size="40.0" />
+      </font>
+   </Button>
+   <Button fx:id="four" lineSpacing="2.0" mnemonicParsing="false" onAction="#numClick" prefHeight="83.0" prefWidth="113.0" style="-fx-background-color: d09ee4;" text="4" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.vgrow="ALWAYS">
+      <font>
+         <Font name="Century Gothic" size="40.0" />
+      </font>
+   </Button>
+   <Button fx:id="five" lineSpacing="2.0" mnemonicParsing="false" onAction="#numClick" prefHeight="83.0" prefWidth="113.0" style="-fx-background-color: d09ee4;" text="5" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.vgrow="ALWAYS">
+      <font>
+         <Font name="Century Gothic" size="40.0" />
+      </font>
+   </Button>
+   <Button fx:id="six" lineSpacing="2.0" mnemonicParsing="false" onAction="#numClick" prefHeight="83.0" prefWidth="113.0" style="-fx-background-color: d09ee4;" text="6" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.vgrow="ALWAYS">
+      <font>
+         <Font name="Century Gothic" size="40.0" />
+      </font>
+   </Button>
+   <Button fx:id="nine" lineSpacing="2.0" mnemonicParsing="false" onAction="#numClick" prefHeight="83.0" prefWidth="113.0" style="-fx-background-color: d09ee4;" text="9" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.vgrow="ALWAYS">
+      <font>
+         <Font name="Century Gothic" size="40.0" />
+      </font>
+   </Button>
+   <Button fx:id="one" lineSpacing="2.0" mnemonicParsing="false" onAction="#numClick" prefHeight="83.0" prefWidth="113.0" style="-fx-background-color: d09ee4;" text="1" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.vgrow="ALWAYS">
+      <font>
+         <Font name="Century Gothic" size="40.0" />
+      </font>
+   </Button>
+   <Button fx:id="two" lineSpacing="2.0" mnemonicParsing="false" onAction="#numClick" prefHeight="83.0" prefWidth="113.0" style="-fx-background-color: d09ee4;" text="2" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.vgrow="ALWAYS">
+      <font>
+         <Font name="Century Gothic" size="40.0" />
+      </font>
+   </Button>
+   <Button fx:id="three" lineSpacing="2.0" mnemonicParsing="false" onAction="#numClick" prefHeight="83.0" prefWidth="113.0" style="-fx-background-color: d09ee4;" text="3" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.vgrow="ALWAYS">
+      <font>
+         <Font name="Century Gothic" size="40.0" />
+      </font>
+   </Button>
+   <Button fx:id="zero" lineSpacing="2.0" mnemonicParsing="false" onAction="#numClick" prefHeight="78.0" prefWidth="181.0" style="-fx-background-color: d09ee4;" text="0" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" GridPane.columnSpan="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="5" GridPane.vgrow="ALWAYS">
+      <font>
+         <Font name="Century Gothic" size="40.0" />
+      </font>
+   </Button>
+   <Button fx:id="dot" lineSpacing="2.0" mnemonicParsing="false" onAction="#buttonDotClick" prefHeight="83.0" prefWidth="113.0" style="-fx-background-color: d09ee4;" text="." textFill="WHITE" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="5" GridPane.vgrow="ALWAYS">
+      <font>
+         <Font name="Century Gothic" size="40.0" />
+      </font>
+   </Button>
+   <Button fx:id="sqrt" lineSpacing="2.0" mnemonicParsing="false" onAction="#buttonSqrtClick" prefHeight="83.0" prefWidth="113.0" style="-fx-background-color: #fbfbfb;" text="√" textFill="#935cc9" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="1" GridPane.rowIndex="1">
+      <font>
+         <Font name="Century Gothic" size="40.0" />
+      </font>
+   </Button>
+   <Button fx:id="pow" lineSpacing="2.0" mnemonicParsing="false" onAction="#CalcOperand2Click" prefHeight="83.0" prefWidth="113.0" style="-fx-background-color: #fbfbfb;" text="^" textFill="#935cc9" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="2" GridPane.rowIndex="1">
+      <font>
+         <Font name="Century Gothic" size="40.0" />
+      </font>
+   </Button>
+   <Button fx:id="div" lineSpacing="2.0" mnemonicParsing="false" onAction="#CalcOperand2Click" prefHeight="78.0" prefWidth="111.0" style="-fx-background-color: feffc2;" text="/" textFill="#935cc9" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="3" GridPane.rowIndex="1">
+      <font>
+         <Font name="Century Gothic" size="40.0" />
+      </font>
+   </Button>
+   <Button fx:id="mul" lineSpacing="2.0" mnemonicParsing="false" onAction="#CalcOperand2Click" prefHeight="83.0" prefWidth="113.0" style="-fx-background-color: feffc2;" text="*" textFill="#935cc9" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="3" GridPane.rowIndex="2">
+      <font>
+         <Font name="Century Gothic" size="40.0" />
+      </font>
+   </Button>
+   <Button fx:id="minus" lineSpacing="2.0" mnemonicParsing="false" onAction="#CalcOperand2Click" prefHeight="83.0" prefWidth="113.0" style="-fx-background-color: feffc2;" text="-" textFill="#935cc9" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="3" GridPane.rowIndex="3">
+      <font>
+         <Font name="Century Gothic" size="40.0" />
+      </font>
+   </Button>
+   <Button fx:id="add" lineSpacing="2.0" mnemonicParsing="false" onAction="#CalcOperand2Click" prefHeight="83.0" prefWidth="113.0" style="-fx-background-color: feffc2;" text="+" textFill="#935cc9" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="3" GridPane.rowIndex="4">
+      <font>
+         <Font name="Century Gothic" size="40.0" />
+      </font>
+   </Button>
+   <Button fx:id="equals" lineSpacing="2.0" mnemonicParsing="false" onAction="#buttonEqualsClick" prefHeight="83.0" prefWidth="113.0" style="-fx-background-color: feffc2;" text="=" textFill="#935cc9" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="3" GridPane.rowIndex="5">
+      <font>
+         <Font name="Century Gothic" size="40.0" />
+      </font>
+   </Button>
+   <Button fx:id="clear" lineSpacing="2.0" mnemonicParsing="false" onAction="#buttonClearClick" prefHeight="83.0" prefWidth="113.0" style="-fx-background-color: #fbfbfb;" text="C" textFill="#935cc9" textOverrun="CENTER_ELLIPSIS" GridPane.rowIndex="1">
+      <font>
+         <Font name="Century Gothic" size="40.0" />
+      </font>
+   </Button>
+   <TextField fx:id="res" prefHeight="85.0" prefWidth="347.0" style="-fx-background-color: #d4bde0; -fx-text-fill: white;" GridPane.columnSpan="4">
+      <font>
+         <Font size="40.0" />
+      </font>
+   </TextField>
+</GridPane>
