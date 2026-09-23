@@ -1,0 +1,10 @@
+# Compiled executables
+lab2
+pipe
+thread
+
+# Object files
+*.o
+
+# Temporary files
+*.tmp
