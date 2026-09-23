@@ -66,52 +66,6 @@ namespace Varov.Lab8
                 }
             }
         }
-        /// <summary>
-        /// Метод, проверяющий какие фишки нужно перевернуть в игре Реверси.
-        /// </summary>
-        /// <param name="numberLine"> Номер строки в матрице.</param>
-        /// <param name="numberColumn"> Номер столбца в матрице.</param>
-        /// <returns></returns>
-        //public static Button[,] Reversion(int numberLine, int numberColumn, int currentStep, ref Button[,] _field) // Переворот фишек
-        //{
-        //    Color[] array = new Color[_field.GetLength(0)];
-        //    for (int j = 0; j < _field.GetLength(1); j++) // Переписываем строку в массив для изменений
-        //    {
-        //        array[j] = _field[numberLine, j].BackColor;
-        //    }
-        //    for (int j = 0; j < _field.GetLength(1); j++) // По строке
-        //    {
-        //        if (currentStep % 2 == 0)
-        //        {
-        //            ChangeElementsTo(array[j], Color.Black, Color.White, array);
-        //        }
-        //        else
-        //            ChangeElementsTo(array[j], Color.White, Color.Black, array);
-        //    }
-        //    for (int j = 0; j < _field.GetLength(1); j++) // Обратно
-        //    {
-        //        _field[numberLine, j].BackColor = array[j];
-        //    }
-
-        //    for (int i = 0; i < _field.GetLength(0); i++) // Переписываем столбец в массив для изменений
-        //    {
-        //        array[i] = _field[i, numberColumn].BackColor;
-        //    }
-        //    for (int i = 0; i < _field.GetLength(0); i++) // По столбцу
-        //    {
-        //        if (currentStep % 2 == 0)
-        //        {
-        //            ChangeElementsTo(array[i], Color.Black, Color.White, array);
-        //        }
-        //        else
-        //            ChangeElementsTo(array[i], Color.White, Color.Black, array);
-        //    }
-        //    for (int i = 0; i < _field.GetLength(0); i++) //Обратно
-        //    {
-        //        _field[i, numberColumn].BackColor = array[i];
-        //    }
-        //    return _field;
-        //}
-
+       
     }
 }
